@@ -1,11 +1,16 @@
-"""Dictionaries Assessment
+"""
+Dictionaries Assessment
 
-**IMPORTANT:** These problems are meant to be solved using
+**IMPORTANT:** 
+
+These problems are meant to be solved using
 dictionaries and sets.
+
 """
 
 def count_words(phrase):
-    """Count unique words in a string.
+    """
+    Count unique words in a string.
 
     This function should take a single string and return a dictionary
     that has all of the distinct words as keys and the number of
@@ -33,7 +38,8 @@ def count_words(phrase):
 
 
 def get_melon_price(melon_name):
-    """Given a melon name, return the price of the melon.
+    """
+    Given a melon name, return the price of the melon.
 
     Here are a list of melon names and prices:
     Watermelon 2.95
@@ -58,7 +64,8 @@ def get_melon_price(melon_name):
 
 
 def word_length_sorted(words):
-    """Return list of word-lengths and words.
+    """
+    Return list of word-lengths and words.
 
     Given a list of words, return a list of tuples, ordered by
     word-length. Each tuple should have two items --- a number that
@@ -80,7 +87,8 @@ def word_length_sorted(words):
 
 
 def translate_to_pirate_talk(phrase):
-    """Translate phrase to pirate talk.
+    """
+    Translate phrase to pirate talk.
 
     Given a phrase, translate each word to the Pirate-speak
     equivalent. Words that cannot be translated into Pirate-speak
@@ -122,7 +130,8 @@ def translate_to_pirate_talk(phrase):
 
 
 def kids_game(names):
-    """Play a kids' word chain game.
+    """
+    Play a kids' word chain game.
 
     Given a list of names, like::
 
@@ -165,6 +174,7 @@ def kids_game(names):
     This is a tricky problem. In particular, think about how using
     a dictionary (with the super-fast lookup they provide) can help;
     good solutions here will definitely require a dictionary.
+    
     """
 
     return []
